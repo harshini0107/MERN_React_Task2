@@ -1,0 +1,51 @@
+.calculator {
+  width: 300px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.result {
+  width: calc(100% - 40px);
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  text-align: right;
+  color: white;
+  background-color: black;
+}
+
+.keypad {
+  width: 100%;
+}
+
+.key-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 70px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+button.operator {
+  background-color: #444;
+}
+
+button.backspace {
+  width: 100%;
+}
